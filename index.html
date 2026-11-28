@@ -6,18 +6,32 @@
 <title>고픽</title>
 <meta name="description" content="고등학교 진로를 콕 집어주는 앱, 고픽">
 <style>
-  :root { --bg: #ffffff; --fg: #1a1a1a; --muted: #5f6368; }
-  @media (prefers-color-scheme: dark) { :root { --bg: #121212; --fg: #f1f1f1; --muted: #a0a0a0; } }
+  :root { --bg: #ffffff; --fg: #1a1a1a; --muted: #5f6368; --link: #3D33C4; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #121212; --fg: #f1f1f1; --muted: #a0a0a0; --link: #A29DFF; } }
   body { margin: 0; background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; line-height: 1.6; }
   main { max-width: 640px; margin: 0 auto; padding: 64px 16px; }
   h1 { font-size: 2rem; margin: 0 0 8px; }
-  p { color: var(--muted); margin: 0; }
+  h2 { font-size: 1.15rem; margin: 40px 0 8px; }
+  p, li { color: var(--muted); margin: 0; }
+  ul { margin: 0; padding-left: 20px; }
+  a { color: var(--link); }
 </style>
 </head>
 <body>
 <main>
   <h1>고픽</h1>
   <p>고등학교 진로를 콕 집어주는 앱. 고등학교를 찾고, 입시 요강을 보고, 내 성적으로 지원 가능성을 점검합니다.</p>
+
+  <h2>문의·지원</h2>
+  <p>앱 이용 문의, 오류 신고, 개인정보 열람·삭제 요청은 메일로 보내 주세요. 앱 버전과 기기 모델을 함께 적어 주시면 빨리 확인할 수 있어요.</p>
+  <p><a href="mailto:gopick.help@gmail.com">gopick.help@gmail.com</a></p>
+  <p>학교·입시 정보가 틀렸다면 앱의 학교 상세 화면에서 정정 요청을 보내 주셔도 됩니다.</p>
+
+  <h2>약관과 개인정보</h2>
+  <ul>
+    <li><a href="/gopick/terms/">이용약관</a></li>
+    <li><a href="/gopick/privacy/">개인정보처리방침</a></li>
+  </ul>
 </main>
 </body>
 </html>
